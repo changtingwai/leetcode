@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树最小深度", "二叉树最小深度\二叉树最小深度.vcxproj", "{E5BB429B-5187-42AE-905F-2BD878538258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5BB429B-5187-42AE-905F-2BD878538258}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5BB429B-5187-42AE-905F-2BD878538258}.Debug|Win32.Build.0 = Debug|Win32
+		{E5BB429B-5187-42AE-905F-2BD878538258}.Release|Win32.ActiveCfg = Release|Win32
+		{E5BB429B-5187-42AE-905F-2BD878538258}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

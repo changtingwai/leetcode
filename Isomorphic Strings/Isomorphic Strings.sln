@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Isomorphic Strings", "Isomorphic Strings\Isomorphic Strings.vcxproj", "{101A1712-21CD-4108-A347-62479642B075}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{101A1712-21CD-4108-A347-62479642B075}.Debug|Win32.ActiveCfg = Debug|Win32
+		{101A1712-21CD-4108-A347-62479642B075}.Debug|Win32.Build.0 = Debug|Win32
+		{101A1712-21CD-4108-A347-62479642B075}.Release|Win32.ActiveCfg = Release|Win32
+		{101A1712-21CD-4108-A347-62479642B075}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

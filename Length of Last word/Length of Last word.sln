@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Length of Last word", "Length of Last word\Length of Last word.vcxproj", "{D7E394C8-6451-402B-8FD7-E17FDD312647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7E394C8-6451-402B-8FD7-E17FDD312647}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7E394C8-6451-402B-8FD7-E17FDD312647}.Debug|Win32.Build.0 = Debug|Win32
+		{D7E394C8-6451-402B-8FD7-E17FDD312647}.Release|Win32.ActiveCfg = Release|Win32
+		{D7E394C8-6451-402B-8FD7-E17FDD312647}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

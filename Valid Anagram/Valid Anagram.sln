@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Anagram", "Valid Anagram\Valid Anagram.vcxproj", "{021FD3EB-B521-42E5-A634-D30A408A3CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{021FD3EB-B521-42E5-A634-D30A408A3CAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{021FD3EB-B521-42E5-A634-D30A408A3CAE}.Debug|Win32.Build.0 = Debug|Win32
+		{021FD3EB-B521-42E5-A634-D30A408A3CAE}.Release|Win32.ActiveCfg = Release|Win32
+		{021FD3EB-B521-42E5-A634-D30A408A3CAE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

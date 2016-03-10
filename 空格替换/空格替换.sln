@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "空格替换", "空格替换\空格替换.vcxproj", "{95873D78-4675-492A-9373-6C5891540C0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95873D78-4675-492A-9373-6C5891540C0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95873D78-4675-492A-9373-6C5891540C0B}.Debug|Win32.Build.0 = Debug|Win32
+		{95873D78-4675-492A-9373-6C5891540C0B}.Release|Win32.ActiveCfg = Release|Win32
+		{95873D78-4675-492A-9373-6C5891540C0B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

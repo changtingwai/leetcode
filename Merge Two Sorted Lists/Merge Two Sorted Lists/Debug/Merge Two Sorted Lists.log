@@ -1,0 +1,129 @@
+﻿生成启动时间为 2015/11/4 22:02:21。
+     1>项目“D:\learn\算法学习\Merge Two Sorted Lists\Merge Two Sorted Lists\Merge Two Sorted Lists.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(364): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(649): 参见对正在编译的类 模板 实例化“std::iterator_traits<_Iter>”的引用
+                 with
+                 [
+                     _Iter=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm(3701): 参见对正在编译的函数 模板 实例化“void std::_Debug_range<_RanIt>(_InIt,_InIt,std::_Dbfile_t,std::_Dbline_t)”的引用
+                 with
+                 [
+                     _RanIt=int,
+                     _InIt=int
+                 ]
+                 d:\learn\算法学习\merge two sorted lists\merge two sorted lists\源.cpp(39): 参见对正在编译的函数 模板 实例化“void std::sort<int>(_RanIt,_RanIt)”的引用
+                 with
+                 [
+                     _RanIt=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(364): error C2039: “iterator_category”: 不是“`global namespace'”的成员
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(364): error C2146: 语法错误: 缺少“;”(在标识符“iterator_category”的前面)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(364): error C2602: “std::iterator_traits<_Iter>::iterator_category”不是“std::iterator_traits<_Iter>”基类的成员
+                 with
+                 [
+                     _Iter=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(364) : 参见“std::iterator_traits<_Iter>::iterator_category”的声明
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(364): error C2868: “std::iterator_traits<_Iter>::iterator_category”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(365): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(365): error C2039: “value_type”: 不是“`global namespace'”的成员
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(365): error C2146: 语法错误: 缺少“;”(在标识符“value_type”的前面)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(365): error C2602: “std::iterator_traits<_Iter>::value_type”不是“std::iterator_traits<_Iter>”基类的成员
+                 with
+                 [
+                     _Iter=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(365) : 参见“std::iterator_traits<_Iter>::value_type”的声明
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(365): error C2868: “std::iterator_traits<_Iter>::value_type”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(366): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(366): error C2039: “difference_type”: 不是“`global namespace'”的成员
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(366): error C2146: 语法错误: 缺少“;”(在标识符“difference_type”的前面)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(366): error C2602: “std::iterator_traits<_Iter>::difference_type”不是“std::iterator_traits<_Iter>”基类的成员
+                 with
+                 [
+                     _Iter=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(366) : 参见“std::iterator_traits<_Iter>::difference_type”的声明
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(366): error C2868: “std::iterator_traits<_Iter>::difference_type”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(368): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(368): error C2039: “pointer”: 不是“`global namespace'”的成员
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(368): error C2146: 语法错误: 缺少“;”(在标识符“pointer”的前面)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(368): error C2602: “std::iterator_traits<_Iter>::pointer”不是“std::iterator_traits<_Iter>”基类的成员
+                 with
+                 [
+                     _Iter=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(368) : 参见“std::iterator_traits<_Iter>::pointer”的声明
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(368): error C2868: “std::iterator_traits<_Iter>::pointer”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(369): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(369): error C2039: “reference”: 不是“`global namespace'”的成员
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(369): error C2146: 语法错误: 缺少“;”(在标识符“reference”的前面)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(369): error C2602: “std::iterator_traits<_Iter>::reference”不是“std::iterator_traits<_Iter>”基类的成员
+                 with
+                 [
+                     _Iter=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(369) : 参见“std::iterator_traits<_Iter>::reference”的声明
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(369): error C2868: “std::iterator_traits<_Iter>::reference”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _Iter=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(649): error C2665: “std::_Debug_range2”: 2 个重载中没有一个可以转换所有参数类型
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(624): 可能是“void std::_Debug_range2<_InIt>(_InIt,_InIt,std::_Dbfile_t,std::_Dbline_t,std::input_iterator_tag)”
+                 with
+                 [
+                     _InIt=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(632): 或       “void std::_Debug_range2<_InIt>(_RanIt,_RanIt,std::_Dbfile_t,std::_Dbline_t,std::random_access_iterator_tag)”
+                 with
+                 [
+                     _InIt=int,
+                     _RanIt=int
+                 ]
+                 尝试匹配参数列表“(int, int, std::_Dbfile_t, std::_Dbline_t, int)”时
+     1>已完成生成项目“D:\learn\算法学习\Merge Two Sorted Lists\Merge Two Sorted Lists\Merge Two Sorted Lists.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.01
